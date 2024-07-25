@@ -13,6 +13,7 @@ body{
     margin: 0;
     top: 50%;
     left: 50%;
+    height: 70%;
     transform: translate(-50%, -50%);
     width: 20%;
     background-color:hsl(0, 0%, 100%);
@@ -23,7 +24,7 @@ body{
 }
 
 .qrcode{
-    height: 200px;
+    height: 250px;
     width: 100%;
     border-radius: 10px;
     align-content: center;
@@ -31,13 +32,17 @@ body{
 }
 
 .title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.title h1{
     font-size: 15px;
     font-weight: 700;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding-left: 13px;
-    padding-right: 13px;
 }
 
 .subtitle{
@@ -82,13 +87,17 @@ body{
     }
     
     .title{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    
+    .title h1{
         font-size: 15px;
         font-weight: 700;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        padding-left: 13px;
-        padding-right: 13px;
     }
     
     .subtitle{
@@ -134,13 +143,17 @@ body{
     }
     
     .title{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    
+    .title h1{
         font-size: 15px;
         font-weight: 700;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        padding-left: 13px;
-        padding-right: 13px;
     }
     
     .subtitle{
@@ -188,13 +201,17 @@ body{
     }
     
     .title{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    
+    .title h1{
         font-size: 15px;
         font-weight: 700;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        padding-left: 13px;
-        padding-right: 13px;
     }
     
     .subtitle{
